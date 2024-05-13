@@ -1,0 +1,200 @@
+{
+  "customId": "query423021",
+  "queryName": "Alunos dados completos sem filtro",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Alunos",
+  "entityFullName": "app.entity.Alunos",
+  "query": {
+    "isValid": true,
+    "isEmpty": false,
+    "operationType": "object",
+    "isNativeQuery": false,
+    "namespace": "app",
+    "type": "select",
+    "rulesEntity": [
+      {
+        "entity": "Alunos",
+        "namespace": "app.entity.Alunos",
+        "dataSourceOptions": {
+          "id": "app.Alunos",
+          "customId": "Alunos",
+          "customQueryName": "app.Alunos",
+          "paramValues": [],
+          "entityFullName": "app.entity.Alunos",
+          "schemaFields": [
+            {
+              "name": "id",
+              "type": "Int32",
+              "nullable": false,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "nome",
+              "type": "String",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "idade",
+              "type": "Int32",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "genero",
+              "type": "String",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "estadocivil",
+              "type": "String",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "cidade",
+              "type": "String",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "estado",
+              "type": "String",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "cursos",
+              "type": "Int32",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "_objectKey",
+              "type": "String",
+              "nullable": false,
+              "notEmpty": false,
+              "key": true
+            },
+            {
+              "name": "cursos_nome",
+              "type": "String",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            }
+          ],
+          "type": "entity",
+          "hasError": false,
+          "customName": "Alunos",
+          "fullName": "app.entity.Alunos",
+          "labelName": "app.entity.Alunos (Alunos)"
+        },
+        "alias": "a"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "a",
+        "type": "string"
+      }
+    ],
+    "rulesJoin": [],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "rules": [],
+      "not": false,
+      "valid": true
+    },
+    "isRawSql": false,
+    "multiTenant": false,
+    "paginatorAutomatic": false,
+    "pagination": false
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "nome": null,
+    "idade": null,
+    "genero": null,
+    "estadocivil": null,
+    "cidade": null,
+    "estado": null,
+    "cursos": null,
+    "cursos_nome": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "nome": null,
+    "idade": null,
+    "genero": null,
+    "estadocivil": null,
+    "cidade": null,
+    "estado": null,
+    "cursos": null,
+    "cursos_nome": null
+  },
+  "security": {
+    "id": null,
+    "nome": null,
+    "idade": null,
+    "genero": null,
+    "estadocivil": null,
+    "cidade": null,
+    "estado": null,
+    "cursos": null,
+    "cursos_nome": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query423021/",
+  "audit": false,
+  "swagger": false,
+  "library": false
+}

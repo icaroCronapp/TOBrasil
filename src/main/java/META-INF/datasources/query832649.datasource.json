@@ -1,0 +1,105 @@
+{
+  "customId": "query832649",
+  "queryName": "Alunos mostrados no fragmento",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Alunos",
+  "entityFullName": "app.entity.Alunos",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "Alunos",
+        "alias": "a",
+        "namespace": "app.entity.Alunos"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "a"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "nome": null,
+    "idade": null,
+    "genero": null,
+    "estadocivil": null,
+    "cidade": null,
+    "estado": null,
+    "cursos": null,
+    "cursos_nome": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "nome": null,
+    "idade": null,
+    "genero": null,
+    "estadocivil": null,
+    "cidade": null,
+    "estado": null,
+    "cursos": null,
+    "cursos_nome": null
+  },
+  "security": {
+    "id": null,
+    "nome": null,
+    "idade": null,
+    "genero": null,
+    "estadocivil": null,
+    "cidade": null,
+    "estado": null,
+    "cursos": null,
+    "cursos_nome": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query832649/",
+  "audit": false,
+  "swagger": false,
+  "library": false
+}

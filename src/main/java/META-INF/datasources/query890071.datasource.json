@@ -1,0 +1,93 @@
+{
+  "customId": "query890071",
+  "queryName": "Periodo Personalizado",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Periodo",
+  "entityFullName": "app.entity.Periodo",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "Periodo",
+        "alias": "p",
+        "namespace": "app.entity.Periodo"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "p"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "periodo": null,
+    "ativo": null,
+    "dataInicial": null,
+    "dataFinal": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "periodo": null,
+    "ativo": null,
+    "dataInicial": null,
+    "dataFinal": null
+  },
+  "security": {
+    "id": null,
+    "periodo": null,
+    "ativo": null,
+    "dataInicial": null,
+    "dataFinal": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query890071/",
+  "audit": false,
+  "swagger": false,
+  "library": false
+}
